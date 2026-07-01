@@ -96,7 +96,22 @@ tags: ["タグ1","タグ2"]
 - cover → サムネイル画像の指定、必須
 - tags → タグ、任意
 
----
+## ❗️注意事項
+> デプロイ前に `src/config/siteConfig.ts` を編集し、サイトタイトルやプロフィール、SNSリンクなどをご自身の情報へ変更してください。
+
+### OGPについて
+OGP画像を正しく表示させるために`astro.config.mjs` の`site`に自分のサイトURLを設定してください。
+
+## ☁️ デプロイ
+### Cloudflare Pages(推奨)
+|項目|設定値|
+|---|---|
+|Framework preset|Astro|
+|Build command|`npm run build`|
+|Build output directory|`dist`|
+
+他、Netlify、Vercelなどの静的ホスティングに対応しています。詳しくは[Astroのドキュメント](https://docs.astro.build/ja/getting-started/)をご確認ください。
+
 ## 📷️ スクリーンショット
 ### トップページ
 ![トップページ](doc/top.png)
