@@ -2,17 +2,19 @@
 ### 🖼️ Astro製のイラスト作品の展示・ログ向けテーマ
 Markdownファイルと画像を追加するだけで、作品ページを自動生成できます。
 イラストの保管庫（Vault）のように、作品をシンプルにまとめられることを目指して開発しました。
+
 [![Node.js >= 22](https://img.shields.io/badge/node.js-%3E%3D22-brightgreen)](https://nodejs.org/) [![Astro](https://img.shields.io/badge/Astro-7.0.3-orange)](https://astro.build/) ![License](https://img.shields.io/badge/license-MIT-green)
 
 [🖥️デモサイト](https://vault-livedemo.pages.dev/)
+
 ![トップページ](doc/top.png)
 
----
+
 ## コンセプト
 Vault は、イラスト作品をシンプルに整理・公開するための Astro テーマです。
 作品の追加は Markdown ファイルと画像を配置するだけ。作品管理に手間をかけず、創作そのものに集中できることを目指しています。
 
----
+
 
 ## ✨️ 特徴
 - Astro Content Collections を利用した作品管理
@@ -23,26 +25,26 @@ Vault は、イラスト作品をシンプルに整理・公開するための A
 - コンフィグファイルによる簡単なサイト設定
 - OGP対応
 
----
+
 
 ## 📦️ 動作環境
 - Node.js　22以上
 - Astro   7.x
 
----
+
 
 ## 🚀 インストール
 ```bash
-git clone https://github.com/hilava999/vault.git
+git clone https://github.com/hilava999/Vault.git
 
-cd vault
+cd Vault
 
 npm install
 
 npm run dev
 ```
 
----
+
 
 ## ⚙️ 初期設定
 `src/config/siteConfig.ts` を編集してください。
@@ -57,7 +59,8 @@ npm run dev
 - プロフィール
 - SNSリンク
 - OGP画像
----
+
+
 ## 🖼️ 作品の追加方法
 
 フォルダを `src/content/log` に作成し、作品を入れてください。
@@ -101,7 +104,7 @@ tags: ["タグ1","タグ2"]
 ### 作品ページ
 ![作品ページ](doc/log.png)
 
----
+
 
 ## 📝 ライセンス
 MIT License
@@ -114,7 +117,7 @@ MIT License
 <CreditLink />
 ```
 
----
+
 
 ## 🙏 使用ライブラリ
 - Astro
@@ -122,7 +125,7 @@ MIT License
 - MiniMasonry
 - Astro Icon
 
----
+
 
 ## 🐞 不具合・要望
 
